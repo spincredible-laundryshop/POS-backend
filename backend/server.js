@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // local dev
-      "https://pos-spincredible.vercel.app/open-sales", // replace with your frontend
+      "https://pos-spincredible.vercel.app", // replace with your frontend
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
